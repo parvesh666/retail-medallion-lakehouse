@@ -51,3 +51,17 @@ Building RFM segmentation entirely in DAX under DirectQuery (rather than in the 
 - Measures can't be used directly as chart Legend or axis grouping fields — worked around using a small static lookup table combined with `SELECTEDVALUE` + `FILTER`
 
 ## Repository structure
+
+```text
+retail-medallion-lakehouse/
+├── 01_bronze_ingest.ipynb
+├── 02_silver_clean.ipynb
+├── 03_gold_star_schema.ipynb
+├── README.md
+├── Retail-Medallion-Lakehouse.pbit
+└── Screenshots/
+    ├── sales-overview.png
+    ├── top-products.png
+    ├── customer-segments.png
+    └── dq-health.png
+```
